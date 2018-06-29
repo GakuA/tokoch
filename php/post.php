@@ -4,6 +4,6 @@
 		$arrData = array('title'=>$matches[1]);
 		echo json_encode($arrData);
 	} else {
-		echo "false";
+		echo false;
 	}
 ?>
